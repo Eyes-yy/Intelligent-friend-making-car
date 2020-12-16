@@ -1,0 +1,9 @@
+<image class="background" src="/res/壁纸4.jpg"></image>
+<view class="container">
+  <view class="title">累了？  听会儿歌吧！</view>
+</view>
+<view class="c2">
+<audio action="{{action}}" poster="{{poster}}" name="{{name}}" author="{{author}}" src="{{src}}" id="myAudio" controls loop></audio>
+<button class="s" type="primary" bindtap="audioPlay">播放</button>
+<button class="p" type="primary" bindtap="audioPause">暂停</button>
+</view>

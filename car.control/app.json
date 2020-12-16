@@ -1,0 +1,33 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/page1/page1"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black",
+    "navigationStyle": "custom"
+  },
+  "tabBar":{
+    "list": [
+      {
+        "pagePath": "pages/page1/page1",
+        "text": "音乐",
+        "iconPath": "/res/音乐.png",
+        "selectedIconPath":"/res/音乐.png"
+        },
+        
+      {
+        "pagePath": "pages/index/index",
+        "text": "控制",
+        "iconPath":"/res/control.png",
+        "selectedIconPath":"/res/control.png"
+      }
+  ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,14 @@
+<image class="background" src="/res/壁纸2.jpg"></image>
+<view class='a'></view>
+<view class='control'>
+  <view class="title">智能小车带你环游世界</view>
+<image  class="video" src='http://192.168.43.89:8080/?action=stream'style="z-index:1" ></image>
+</view>
+<view class="title">操纵一下小车吧</view>
+<view class="btn-wrap">
+  <image class='button'  id='forward' src="/res/上.png"bindtouchstart='carMove' data-direction='1' bindtouchend='carStop'></image>
+  <image class='button' id='left'src="/res/左.png" bindtouchstart='carMove' data-direction='4' bindtouchend='carStop'></image>
+  <image class='button' id='stop' src='/res/停止.png' bindtouchstart='carMove' data-direction='5' bindtouchend='carStop'></image>
+  <image class='button'  id='right' src="/res/右.png" bindtouchstart='carMove' data-direction='3' bindtouchend='carStop'></image>
+  <image class='button' id='back' src="/res/下.png" bindtouchstart='carMove' data-direction='2' bindtouchend='carStop'></image>
+</view>
